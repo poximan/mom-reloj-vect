@@ -2,7 +2,11 @@
 Servicio de reloj vectorial de tamaño n para una arquitectura mom (message-oriented middleware).
 De utilidad en sincronizacion de procesos distribuidos, para obtener el orden de cualquier par arbitrario de sucesos.
 
-<Enter><Enter><Enter>
+<Enter>
+<nl>
+/
+/
+<Enter>
 ## Configuracion inicial
 En propiedades.json debe especificarse cuantos procesos del sistema necesitaran una instancia de reloj.
 
@@ -12,8 +16,9 @@ param 1 = indice del que es responsable el reloj vectorial.
 ## Modo de uso
 
 ### Alta reloj
+'''
 var reloj_vectorial = require("mom-reloj-vect")(param 1);
-
+'''
 Se requiere el servicio de reloj vectorial.
 El proceso consumidor pide por parametros que se reserve una posicion del arreglo vector. El modulo de reloj vectorial reservara esa posicion para el que la solicite.
 En caso de conflicto de posiciones, el Reloj notificara con "Reloj vectorial: otro proceso modifico mi reloj".
