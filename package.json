@@ -1,6 +1,6 @@
 {
   "name": "mom-reloj-vect",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Servicio de reloj vectorial de tamaño n para una arquitectura mom (message-oriented middleware).",
   "main": "index.js",
   "scripts": {
