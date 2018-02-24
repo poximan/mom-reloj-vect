@@ -2,10 +2,7 @@
 Servicio de reloj vectorial de tamaño n para una arquitectura mom (message-oriented middleware).
 De utilidad en sincronizacion de procesos distribuidos, para obtener el orden de cualquier par arbitrario de sucesos.
 
-
-
-
-
+<Enter><Enter><Enter>
 ## Configuracion inicial
 En propiedades.json debe especificarse cuantos procesos del sistema necesitaran una instancia de reloj.
 
@@ -39,6 +36,6 @@ Devuelve el indice reservado para el proceso solicitante.
 ### Actualizar estado
 reloj_vectorial.actualizarVector(nuevo_vector);
 
-..* Sobreescribe con nuevo_vector si posicion != posicion reservada a proceso solicitante.
-..* No sobreescribe el vector si posicion == posicion reservada a proceso solicitante.
+* Sobreescribe con nuevo_vector si posicion != posicion reservada a proceso solicitante.
+* No sobreescribe el vector si posicion == posicion reservada a proceso solicitante.
 Para este ultimo caso, si nuevo_vector tiene un valor mayor devuelve falla, pero no interrumpe el proceso.
