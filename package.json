@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "mom-reloj-vect@^1.0.2",
+        "scope": null,
+        "escapedName": "mom-reloj-vect",
+        "name": "mom-reloj-vect",
+        "rawSpec": "^1.0.2",
+        "spec": ">=1.0.2 <2.0.0",
+        "type": "range"
+      },
+      "D:\\documentos\\hugo\\Dropbox\\uni\\sist_distr\\labo\\servers\\mama_node\\node_modules\\mom-nucleo"
+    ],
+    [
+      {
+        "raw": "mom-reloj-vect@^1.0.8",
+        "scope": null,
+        "escapedName": "mom-reloj-vect",
+        "name": "mom-reloj-vect",
+        "rawSpec": "^1.0.8",
+        "spec": ">=1.0.8 <2.0.0",
+        "type": "range"
+      },
+      "D:\\documentos\\hugo\\Dropbox\\uni\\sist_distr\\labo\\servers\\mama_node"
+    ]
+  ],
+  "_from": "mom-reloj-vect@^1.0.8",
+  "_id": "mom-reloj-vect@1.0.8",
+  "_inCache": true,
+  "_location": "/mom-reloj-vect",
+  "_nodeVersion": "6.11.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/mom-reloj-vect_1.0.8_1519333496813_0.13332915542704127"
+  },
+  "_npmUser": {
+    "name": "poximan",
+    "email": "poxi_man@yahoo.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "mom-reloj-vect@^1.0.8",
+    "scope": null,
+    "escapedName": "mom-reloj-vect",
+    "name": "mom-reloj-vect",
+    "rawSpec": "^1.0.8",
+    "spec": ">=1.0.8 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mom-reloj-vect/-/mom-reloj-vect-1.0.8.tgz",
+  "_shasum": "67094dde312842a2f3565e240e4fa3d8eec35080",
+  "_shrinkwrap": null,
+  "_spec": "mom-reloj-vect@^1.0.8",
+  "_where": "D:\\documentos\\hugo\\Dropbox\\uni\\sist_distr\\labo\\servers\\mama_node",
+  "author": {
+    "name": "jose devia, hugo donato"
+  },
+  "dependencies": {},
+  "description": "componente de servicio para una arquitectura mom (message-oriented middleware) que brinda operacion sobre reloj vectorial al nucleo del control.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "67094dde312842a2f3565e240e4fa3d8eec35080",
+    "tarball": "https://registry.npmjs.org/mom-reloj-vect/-/mom-reloj-vect-1.0.8.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3632
+  },
+  "keywords": [
+    "global",
+    "state",
+    "logical",
+    "clock",
+    "vector",
+    "timestamp"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "poximan",
+      "email": "poxi_man@yahoo.com"
+    }
+  ],
+  "name": "mom-reloj-vect",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.8"
+}
