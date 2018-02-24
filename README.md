@@ -1,7 +1,7 @@
 # Reloj Vectorial
 Servicio de reloj vectorial de tamaño n para una arquitectura mom (message-oriented middleware).
 De utilidad en sincronizacion de procesos distribuidos, para obtener el orden de cualquier par arbitrario de sucesos.
-\n\n\n
+\s\s
 ## Configuracion inicial
 En propiedades.json debe especificarse cuantos procesos del sistema necesitaran una instancia de reloj.
 
