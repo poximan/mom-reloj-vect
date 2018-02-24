@@ -2,6 +2,9 @@
 Servicio de reloj vectorial de tamaño n para una arquitectura mom (message-oriented middleware).
 De utilidad en sincronizacion de procesos distribuidos, para obtener el orden de cualquier par arbitrario de sucesos.<br/><br/>
 
+## Caso de estudio
+Aqui https://github.com/poximan/mama_node hay caso de estudio completo que implementa este modulo.<br/>
+
 ## Configuracion inicial
 En propiedades.json debe especificarse cuantos procesos del sistema necesitaran una instancia de reloj.<br/>
 
