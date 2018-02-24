@@ -44,5 +44,4 @@ reloj_vectorial.actualizarVector(nuevo_vector);
 ```
 
 * Sobreescribe con nuevo_vector si posicion != posicion reservada a proceso solicitante.
-* No sobreescribe el vector si posicion == posicion reservada a proceso solicitante.
-Para este ultimo caso, si nuevo_vector tiene un valor mayor devuelve falla, pero no interrumpe el proceso.
+* No sobreescribe el vector si posicion == posicion reservada a proceso solicitante. Si nuevo_vector tiene un valor mayor devuelve falla, pero no interrumpe el proceso.
