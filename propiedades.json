@@ -1,6 +1,6 @@
 {
-  "vector_serv" : {
+  "procesos" : {
     "cantidad" : "6",
-    "_coment" : "cantidad de servidores para definir tamaño del reloj vectorial"
+    "_coment" : "cantidad de procesos para definir tamaño del reloj vectorial"
   }
 }
